@@ -1,7 +1,7 @@
 ART = 'art-default.jpg'
 ICON = 'icon-default.jpg'
-NAME = 'Radio Riff - Temple of Rock'
-STREAM_URL = 'http://radioriff.frequency1.com:8888/stream'
+NAME = 'Rock 101 KLOL'
+STREAM_URL = 'http://rock101klol.com:8000/'
 
 ####################################################################################################
 def Start():
@@ -11,7 +11,7 @@ def Start():
 	TrackObject.thumb = R(ICON)
 
 ####################################################################################################     
-@handler('/music/radioriff', NAME, thumb=ICON, art=ART)
+@handler('/music/rock101', NAME, thumb=ICON, art=ART)
 def MainMenu():
 
 	oc = ObjectContainer()
