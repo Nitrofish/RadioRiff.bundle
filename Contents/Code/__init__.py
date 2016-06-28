@@ -1,7 +1,7 @@
 ART = 'art-default.jpg'
 ICON = 'icon-default.jpg'
 NAME = 'Rock 101 KLOL'
-STREAM_URL = 'http://rock101klol.com:8000/'
+STREAM_URL = 'http://rock101klol.com:8000/;'
 
 ####################################################################################################
 def Start():
